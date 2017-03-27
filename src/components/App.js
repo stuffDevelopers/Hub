@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './images/LogoStuff2.png';
-import './App.css';
-import { Button } from 'bulma-react'
+import logo from '../images/LogoStuff2.png';
+import '../App.css';
+import '../bulma/css/bulma.css';
 
 class App extends Component {
   render() {
@@ -14,7 +14,6 @@ class App extends Component {
         </div>
         </div>
         <p className="App-intro">
-          <Button is-primary is-loading>Enter</Button>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
